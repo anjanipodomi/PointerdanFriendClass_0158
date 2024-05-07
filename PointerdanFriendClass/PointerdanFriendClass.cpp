@@ -1,10 +1,10 @@
 #include <iostream>
 using namespace std;
 
-class Mahasiswa {
+class mahasiswa {
 public:
     int nim;
-    void showName() {
+    void showNim() {
         cout << "No Induk = " << nim << endl;
 
     }
@@ -13,5 +13,7 @@ public:
 
 int main()
 {
-    
+    mahasiswa mhs{ 1 };     //object mhs
+    mhs.showNim();          //member access operator
+
 }
